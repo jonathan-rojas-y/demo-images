@@ -42,7 +42,7 @@ python-user-list
    ```
 
 5. **Access the user list:**
-   Open your web browser and go to `http://127.0.0.1:5000/users`.
+   Open your web browser and go to `http://127.0.0.1:4000/users`.
 
 ## Docker Instructions
 
@@ -55,11 +55,11 @@ To build and run the application using Docker, follow these steps:
 
 2. **Run the Docker container:**
    ```
-   docker run -p 5000:5000 python-user-list
+   docker run -p 4000:4000 python-user-list
    ```
 
 3. **Access the user list:**
-   Open your web browser and go to `http://localhost:5000/users`.
+   Open your web browser and go to `http://localhost:4000/users`.
 
 ## Usage
 
